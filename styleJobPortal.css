@@ -1,0 +1,46 @@
+*{
+    margin: 50;
+    padding: 10;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+}
+body {
+  background-color: lightgray;
+  color: #333;
+  line-height: 1.6;
+}
+header{
+    padding: 20px 40px;
+    background-color: white;
+    
+}
+#heading{
+    position: sticky;
+    gap: 0;
+    padding: 10px 0;
+    color: blue;
+    
+}
+#div1 a{ 
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-weight: 500;
+}
+.button1{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+input,
+select {
+  padding: 10px 14px;
+  margin: 8px;
+  border-radius: 6px;
+  border: 2px solid lightgray;
+}
